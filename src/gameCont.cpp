@@ -14,7 +14,7 @@ void GameCont::ShowCont()
 	{
 		CONTENT cont = cit->second;
 		cont.Display();
-		PRINT_MSG("");
+		PRINT_MSG(""); //
 		cit++;
 	}
 }
